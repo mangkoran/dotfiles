@@ -16,7 +16,7 @@ super + Escape
 
 # bindsym --release Print exec maim ~/Pictures/$(date +%s).png
 # bindsym $mod+Print exec maim -s -u | xclip -selection clipboard -t image/png -i
-#
+
 # bindsym XF86MonBrightnessDown exec --no-startup-id light -U 10
 # bindsym XF86MonBrightnessUp exec --no-startup-id light -A 10
 
@@ -27,6 +27,30 @@ super + Escape
 # bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 # bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
 # bindsym XF86AudioNext exec --no-startup-id playerctl next
+
+# screenshot whole display using maim
+@Print
+ maim ~/Pictures/$(date +%s).png
+
+# select region, copy to clipboard
+super + Print
+ maim -s -u | xclip -selection clipboard -t image/png
+
+# brigthness control
+XF86MonBrightness{Up,Down}
+ light -{A,U} 10
+
+# volume control
+XF86Audio{Raise,Lower}Volume
+ pactl set-sink-volume @DEFAULT_SINK@ {+,-}10%
+
+# mute sound and mic
+XF86Audio{_,Mic}Mute
+ pactl set-{sink,source}-mute @DEFAULT_SINK@ toggle
+
+# audio plaer control
+XF86Audio{Play,Prev,Next}
+ playerctl {play-pause,previous,next}
 
 # #
 # # bspwm hotkeys
