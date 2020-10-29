@@ -1,0 +1,13 @@
+[Desktop Entry]
+
+# The type as listed above
+Type=Application
+
+# The name of the application
+Name=osu!
+
+# The path to the folder in which the executable is run
+Path=/home/apiqnzr/Apps
+
+# The executable of the application, possibly with arguments.
+Exec=gamemoderun ./osu.AppImage
