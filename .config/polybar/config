@@ -9,9 +9,9 @@
 
 [colors]
 background      = #2e3440
-background-alt  = #a5abb6
+background-alt  = #4C566A
 foreground      = #d8dee9
-foreground-alt  = #a5abb6
+foreground-alt  = #4C566A
 primary         = #bf616a 
 secondary       = #a3be8c
 alert           = #ebcb8b
@@ -145,7 +145,7 @@ label-mode-background = ${colors.background}
 ; focused = Active workspace on focused monitor
 label-focused = %name%
 label-focused-background = ${colors.background}
-label-focused-underline = ${colors.background-alt}
+label-focused-underline = ${colors.foreground}
 label-focused-padding = 0
 
 ; unfocused = Inactive workspace on any monitor
@@ -287,7 +287,7 @@ format-volume = <label-volume> <bar-volume>
 label-volume = VL %percentage%%
 label-volume-foreground = ${colors.foreground}
 
-label-muted = MUTED 
+label-muted = VL MUTED 
 ; label-muted-foreground = #666
 label-muted-foreground = ${colors.foreground-alt}
 
