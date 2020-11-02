@@ -30,11 +30,13 @@ super + Escape
 
 # screenshot whole display using maim
 @Print
- maim ~/Pictures/$(date +%s).png
+ maim ~/Pictures/$(date +%s).png | dunstify "Screenshot Captured" "Saved to ~/Pictures/$(date +%s).png"
 
 # select region, copy to clipboard
+# super + Print
+ # maim -s -u | xclip -selection clipboard -t image/png
 super + Print
- maim -s -u | xclip -selection clipboard -t image/png
+ flameshot gui
 
 # brigthness control
 XF86MonBrightness{Up,Down}
