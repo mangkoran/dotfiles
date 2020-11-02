@@ -9,6 +9,7 @@ nitrogen --restore
 
 picom -b & 
 redshift &
+syndaemon -i 0.5 -K -R -d &
 
 discord &
 telegram-desktop &
