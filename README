@@ -5,3 +5,15 @@
 |_| |_| |_|\__,_|_| |_|\__, |_|\_\___/|_|  \__,_|_| |_|
                        |___/
                              dotfiles
+
+OS: Arch Linux x86_64
+Host: HP ENVY Notebook
+Kernel: 5.8.14-zen1-1-zen
+WM: i3
+Theme: WhiteSur-dark [GTK2/3]
+Icons: WhiteSur-dark [GTK2/3]
+Terminal: alacritty
+CPU: Intel i7-6700HQ (8) @ 3.500GHz
+GPU: Intel HD Graphics 530
+GPU: NVIDIA GeForce GTX 950M
+Memory: 11814MiB
