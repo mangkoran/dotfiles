@@ -9,8 +9,10 @@ nitrogen --restore
 
 picom -b & 
 redshift &
-syndaemon -i 0.5 -K -R -d &
+# syndaemon -i 0.5 -K -R -d &
 unclutter --timeout 2 &
 
 discord &
 telegram-desktop &
+
+xinput set-prop 16 358 1
