@@ -35,8 +35,8 @@ super + Escape
 # select region, copy to clipboard
 # super + Print
  # maim -s -u | xclip -selection clipboard -t image/png
-super + Print
- flameshot gui
+super + {_,shift + } Print
+ {flameshot gui,maim -s -u | xclip -selection clipboard -t image/png}
 
 # brigthness control
 XF86MonBrightness{Up,Down}
