@@ -44,6 +44,13 @@ default_height = 30
 [[layers]]
 name = "colorscheme"
 
+[[layers]]
+name = "lsp"
+filetypes = [
+  "c",
+  "cpp"
+]
+
 [[custom_plugins]]
 repo = "rrethy/vim-hexokinase"
 build = "make hexokinase"
