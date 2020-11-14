@@ -110,4 +110,4 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 alias config="/usr/bin/git --git-dir=/home/apiqnzr/.cfg/ --work-tree=/home/apiqnzr"
-alias lazyconfig="lazygit --git-dir=/home/apiqnzr/.cfg/ --work-tree=/home/apiqnzr"
+alias lgconfig="lazygit --git-dir=/home/apiqnzr/.cfg/ --work-tree=/home/apiqnzr"
