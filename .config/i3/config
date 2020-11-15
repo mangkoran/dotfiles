@@ -53,7 +53,7 @@ floating_modifier $mod
 
 # start a terminal
 # bindsym $mod+Return exec alacritty
- 
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
@@ -65,10 +65,10 @@ bindsym $mod+Shift+q kill
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -77,10 +77,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -89,7 +89,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+h split h
+bindsym $mod+n split h
 
 # split in vertical orientation
 bindsym $mod+v split v
@@ -197,7 +197,7 @@ bindsym $mod+r mode "resize"
 # | |  | | | | |  | | | | |_) |
 # | |__| |_| | |__| |_| |  _ <
 #  \____\___/|_____\___/|_| \_\
-# 
+#
 ###############################################################
 
 # class                 border  backgr. text    indicator child_border
@@ -208,7 +208,7 @@ client.unfocused        #4C566A #4C566A #D8DEE9 #4C566A   #4C566A
 # client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
 # You can also use any non-zero value if you'd like to have a border
-for_window [class=".*"] border pixel 0 
+for_window [class=".*"] border pixel 0
 
 #gaps [inner|outer|horizontal|vertical|top|left|bottom|right] <px>
 #workspace <ws> gaps [inner|outer|horizontal|vertical|top|left|bottom|right] <px>
