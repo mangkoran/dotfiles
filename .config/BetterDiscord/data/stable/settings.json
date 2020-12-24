@@ -1,0 +1,37 @@
+{
+    "general": {
+        "emotes": true,
+        "publicServers": true,
+        "voiceDisconnect": true,
+        "classNormalizer": true,
+        "showToasts": true
+    },
+    "appearance": {
+        "twentyFourHour": true,
+        "voiceMode": false,
+        "minimalMode": false,
+        "hideChannels": false,
+        "darkMode": false,
+        "coloredText": false
+    },
+    "addons": {
+        "addonErrors": true,
+        "autoScroll": true,
+        "autoReload": true,
+        "editAction": "detached"
+    },
+    "customcss": {
+        "customcss": true,
+        "liveUpdate": false,
+        "openAction": "settings"
+    },
+    "developer": {
+        "debuggerHotkey": false,
+        "copySelector": false,
+        "reactDevTools": false
+    },
+    "window": {
+        "transparency": false,
+        "frame": false
+    }
+}

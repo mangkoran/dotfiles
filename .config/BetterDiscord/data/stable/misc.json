@@ -1,0 +1,11 @@
+{
+    "favoriteEmotes": {},
+    "version": "1.0.0",
+    "drawerStates": {
+        "settings": {
+            "addons": false,
+            "developer": false,
+            "window": false
+        }
+    }
+}
