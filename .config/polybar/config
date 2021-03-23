@@ -51,11 +51,11 @@ module-margin-right = 1
 
 font-0 = SauceCodePro Nerd Font:pixelsize=10;1
 font-1 = Noto Sans CJK JP:pixelsize=10;1
-font-2 = siji:pixelsize=10;1
+; font-2 = siji:pixelsize=10;1
 
 modules-left = bspwm now-playing
 modules-center = xwindow
-modules-right = pulseaudio wlan cpu memory battery date powermenu
+modules-right = pulseaudio wlan cpu memory battery date
 
 ; tray-position = right
 ; tray-padding = 2
@@ -316,7 +316,7 @@ format-disconnected =
 type = internal/date
 interval = 1
 
-date = %b %d
+date = %A %b %d
 date-alt = %Y-%m-%d
 
 time = %I:%M
@@ -326,7 +326,7 @@ time-alt = %H:%M:%S
 format-prefix-foreground = ${colors.foreground-alt}
 ; format-underline = ${colors.cyan}
 
-label = %date% | %time%
+label = %date% %time%
 
 [module/pulseaudio]
 type = internal/pulseaudio
@@ -348,9 +348,9 @@ bar-volume-foreground-4 = ${colors.green}
 bar-volume-foreground-5 = ${colors.yellow}
 bar-volume-foreground-6 = ${colors.red}
 bar-volume-gradient = false
-bar-volume-indicator = |
+bar-volume-indicator = o
 bar-volume-indicator-font = 1
-bar-volume-fill = |
+bar-volume-fill = .
 bar-volume-fill-font = 1
 bar-volume-empty = .
 bar-volume-empty-font = 1

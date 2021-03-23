@@ -29,6 +29,8 @@ bspc rule -a Emacs state=tiled
 
 ~/.config/bspwm/startup.sh
 
+ bspc monitor eDP-1 -s HDMI-1
+
 # ~/.screenlayout/layout.sh
 # ~/.config/polybar/launch.sh
 # ~/.fehbg &
