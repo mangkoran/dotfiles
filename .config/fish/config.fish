@@ -10,4 +10,3 @@ set -gx PULSE_SERVER tcp:(cat /etc/resolv.conf | grep nameserver | awk '{print $
 set -gx LIBGL_ALWAYS_INDIRECT 1 #GWSL
 
 fish_vi_key_bindings
-fish_ssh_agent
