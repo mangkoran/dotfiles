@@ -8,7 +8,7 @@
 ;
 
 [colors]
-background      = #2e3440
+background      = #002e3440
 background-alt  = #4C566A
 foreground      = #d8dee9
 foreground-alt  = #4C566A
@@ -167,7 +167,7 @@ label-occupied-padding = 2
 
 label-urgent = %index%
 label-urgent-background = ${colors.alert}
-label-urgent-foreground = ${colors.background}
+label-urgent-foreground = ${colors.foreground-alt}
 label-urgent-padding = 2
 
 label-empty = %index%
