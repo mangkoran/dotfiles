@@ -12,7 +12,6 @@
 (package! evil-matchit)
 (package! fish-mode)
 (package! impatient-mode)
-;; (package! grip-mode :pin "28552059c4643f571ef0883ad543270a48241572")
 ;; (package! solaire-mode :disable t)
 ;; (package! dash)
 
