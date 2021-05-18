@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: (user's name)
+# uuid: fname
+# key: fname
+# --
+`user-full-name`$0
