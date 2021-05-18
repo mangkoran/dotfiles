@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
-~/.fehbg &
+# eval "$(ssh-agent -s)" &
+$HOME/.fehbg &
+$HOME/.config/polybar/launch &
+xsetroot -cursor_name left_ptr
 unclutter &
 redshift &

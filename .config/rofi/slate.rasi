@@ -31,7 +31,8 @@ prompt {
     padding: 20px;
 }
 textbox {
-    padding: 10px 20px;
+    padding: 20px;
+    background-color: @--base01;
 }
 entry {
     padding: 20px;
@@ -45,4 +46,7 @@ element {
 }
 element selected {
     background-color: @--base01;
+}
+message {
+    /* padding: 10px 0; */
 }

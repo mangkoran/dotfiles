@@ -1,6 +1,6 @@
 set -gx EDITOR "emacs -nw"
 set -gx VISUAL $EDITOR
-set -gx TERM "xterm-kitty-24bit"
+set -gx TERM "xterm-24bit"
 
 # Start X at login
 if status is-login
