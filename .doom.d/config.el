@@ -90,9 +90,9 @@
 ;; (display-time-mode 1)
 (global-subword-mode 1)
 (add-to-list 'default-frame-alist '(height . 20))
-(setq-default custom-file (expand-file-name ".custom.el" doom-private-dir))
-(when (file-exists-p custom-file)
-    (load custom-file))
+;; (setq-default custom-file (expand-file-name ".custom.el" doom-private-dir))
+;; (when (file-exists-p custom-file)
+;;     (load custom-file))
 (setq
     evil-split-window-below t
     evil-vsplit-window-right t
