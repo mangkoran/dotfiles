@@ -1,6 +1,7 @@
 set -x EDITOR /usr/bin/emacs -nw
 set -x HIGHLIGHT_STYLE base16/gruvbox-dark-medium
-set -x PATH $HOME/.emacs.d/bin:$PATH
+# set -x PATH $HOME/.config/composer/vendor/bin:$PATH
+set -x PATH $HOME/.emacs.distro/.doom/bin:$PATH
 set -x PATH $HOME/.local/bin:$PATH
 set -x TERM xterm-24bit
 set -x VISUAL $EDITOR

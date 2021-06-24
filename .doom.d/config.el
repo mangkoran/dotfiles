@@ -21,7 +21,7 @@
 ;; font string. You generally only need these two:
 ;; (setq doom-font (font-spec :family "monospace" :size 12 :weight 'semi-light)
 ;;       doom-variable-pitch-font (font-spec :family "sans" :size 13))
-(setq doom-font (font-spec :family "Inconsolata Go Nerd Font" :size 14))
+(setq doom-font (font-spec :family "Inconsolata Go Nerd Font" :size 16))
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
@@ -62,7 +62,7 @@
 (setq
     grip-github-user "mangkoran"
     grip-github-password "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"
-    grip--port 7272
+    ;; grip--port 7272
     )
 (after! recentf
     (setq recentf-auto-cleanup 'mode)
@@ -90,9 +90,9 @@
 ;; (display-time-mode 1)
 (global-subword-mode 1)
 (add-to-list 'default-frame-alist '(height . 20))
-(setq-default custom-file (expand-file-name ".custom.el" doom-private-dir))
-(when (file-exists-p custom-file)
-    (load custom-file))
+;; (setq-default custom-file (expand-file-name ".custom.el" doom-private-dir))
+;; (when (file-exists-p custom-file)
+;;     (load custom-file))
 (setq
     evil-split-window-below t
     evil-vsplit-window-right t
@@ -108,7 +108,8 @@
         company-idle-delay 0
         company-minimum-prefix-length 2)
     (setq company-show-numbers t)
-    (add-hook 'evil-normal-state-entry-hook #'company-abort)) ;; make aborting less annoying.
+    ;; (add-hook 'evil-normal-state-entry-hook #'company-abort)
+    ) ;; make aborting less annoying.
 (setq ivy-read-action-function #'ivy-hydra-read-action)
 (setq ivy-sort-max-size 50000)
 ;; keymap

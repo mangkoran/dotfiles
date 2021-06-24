@@ -4,4 +4,4 @@
 # key: date
 # condition: t
 # --
-`(format-time-string "%F")`$0
+`(format-time-string "%F")`

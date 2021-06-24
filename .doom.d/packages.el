@@ -8,12 +8,14 @@
 
 ;; To install SOME-PACKAGE from MELPA, ELPA or emacsmirror:
 ;(package! some-package)
-;; (package! base16-theme)
 (package! evil-matchit)
 (package! fish-mode)
 (package! impatient-mode)
-;; (package! solaire-mode :disable t)
+(package! indium)
+(package! skewer-mode)
+;; (package! base16-theme)
 ;; (package! dash)
+;; (package! solaire-mode :disable t)
 
 ;; To install a package directly from a remote git repo, you must specify a
 ;; `:recipe'. You'll find documentation on what `:recipe' accepts here:

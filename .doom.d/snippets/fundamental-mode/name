@@ -2,5 +2,6 @@
 # name: name
 # uuid: name
 # key: name
+# condition: t
 # --
-`user-full-name`$0
+`(user-full-name)`
