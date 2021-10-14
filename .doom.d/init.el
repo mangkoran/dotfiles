@@ -82,7 +82,9 @@
     ;;word-wrap         ; soft wrapping with language-aware indent
 
     :emacs
-    (dired +icons)             ; making dired pretty [functional]
+    (dired
+        +icons
+        +ranger)             ; making dired pretty [functional]
     electric          ; smarter, keyword-based electric-indent
     (ibuffer
         +icons
@@ -106,9 +108,9 @@
     grammar           ; tasing grammar mistake every you make
 
     :tools
-    ansible
+    ;; ansible
     ;; debugger          ; FIXME stepping through code, to help you add bugs
-    ;;direnv
+    ;; direnv
     docker
     editorconfig      ; let someone else argue about tabs vs spaces
     ;;ein               ; tame Jupyter notebooks with emacs
@@ -173,15 +175,15 @@
     ;;ocaml             ; an objective camel
     (org
         +pretty
-        +dragndrop
-        +noter
-        +jupyter
+        ;; +dragndrop
+        ;; +noter
+        ;; +jupyter
         +pandoc
-        +gnuplot
-        +present
-        +roam
+        ;; +gnuplot
+        ;; +present
+        +roam2
         )               ; organize your plain life in plain text
-    php               ; perl's insecure younger brother
+    (php +lsp)               ; perl's insecure younger brother
     ;;plantuml          ; diagrams for confusing people more
     ;;purescript        ; javascript, but functional
     (python +lsp)            ; beautiful is better than ugly
@@ -200,7 +202,7 @@
     ;;swift             ; who asked for emoji variables?
     ;;terra             ; Earth and Moon in alignment for performance.
     (web +lsp)              ; the tubes
-    yaml              ; JSON, but readable
+    (yaml +lsp)              ; JSON, but readable
 
     :email
     ;;(mu4e +gmail)
@@ -215,4 +217,5 @@
 
     :config
     ;; literate
-    (default +bindings +smartparens))
+    (default +bindings +smartparens)
+    )

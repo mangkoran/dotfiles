@@ -5,7 +5,6 @@ SETUVAR _fisher_danhper_2F_fish_2D_ssh_2D_agent_files:/home/apiqnzr/\x2econfig/f
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:/home/apiqnzr/\x2econfig/fish/functions/fisher\x2efish\x1e/home/apiqnzr/\x2econfig/fish/completions/fisher\x2efish
 SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_files:/home/apiqnzr/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e/home/apiqnzr/\x2econfig/fish/functions/_nvm_list\x2efish\x1e/home/apiqnzr/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e/home/apiqnzr/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e/home/apiqnzr/\x2econfig/fish/functions/nvm\x2efish\x1e/home/apiqnzr/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e/home/apiqnzr/\x2econfig/fish/completions/nvm\x2efish
 SETUVAR _fisher_plugins:jorgebucaran/fisher\x1edanhper/fish\x2dssh\x2dagent\x1ejorgebucaran/nvm\x2efish
-SETUVAR base16_theme:gruvbox\x2ddark\x2dmedium
 SETUVAR fish_color_autosuggestion:504945
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:green
@@ -77,7 +76,7 @@ SETUVAR pure_symbol_git_stash:\u2261
 SETUVAR pure_symbol_git_unpulled_commits:\u21e3
 SETUVAR pure_symbol_git_unpushed_commits:\u21e1
 SETUVAR pure_symbol_prefix_root_prompt:\x23
-SETUVAR pure_symbol_prompt:\u276f
-SETUVAR pure_symbol_reverse_prompt:\u276e
+SETUVAR pure_symbol_prompt:\x3e
+SETUVAR pure_symbol_reverse_prompt:\x3c
 SETUVAR pure_symbol_title_bar_separator:\x2d
 SETUVAR pure_threshold_command_duration:5

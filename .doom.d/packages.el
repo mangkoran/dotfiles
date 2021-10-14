@@ -8,14 +8,6 @@
 
 ;; To install SOME-PACKAGE from MELPA, ELPA or emacsmirror:
 ;(package! some-package)
-(package! evil-matchit)
-(package! fish-mode)
-(package! impatient-mode)
-(package! indium)
-(package! skewer-mode)
-;; (package! base16-theme)
-;; (package! dash)
-;; (package! solaire-mode :disable t)
 
 ;; To install a package directly from a remote git repo, you must specify a
 ;; `:recipe'. You'll find documentation on what `:recipe' accepts here:
@@ -56,3 +48,23 @@
 ;(unpin! pinned-package another-pinned-package)
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
+
+(package! evil-matchit)
+(package! fish-mode)
+(package! impatient-mode)
+(package! indium)
+(package! skewer-mode)
+;; (package! base16-theme)
+;; (package! dash)
+;; (package! solaire-mode :disable t)
+;; (package! info+)
+
+(package! info+ :recipe
+    (:host github
+        :repo "emacsmirror/emacswiki.org"
+        :branch "master"
+        :files ("info+.el"))
+    :pin "69732dcdd497607978ac14881831bd4ed690799a")
+
+(package! json-process-client :recipe
+    (:host github :repo "emacsmirror/json-process-client"))
